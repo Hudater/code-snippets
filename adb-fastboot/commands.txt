@@ -1,0 +1,7 @@
+sudo fastboot --set-active=a
+sudo fastboot --set-active=b
+sudo fastboot getvar all
+sudo fastboot reboot
+sudo adb devices
+sudo fastboot devices
+sudo fastboot getvar current-slot
