@@ -1,0 +1,4 @@
+youtube-dl -F "url.of.video" = to get list of available videos formats and audio formats
+youtube-dl -f code-number "url" = download one of the listed format
+youtube-dl -f "bestvideo+bestaudio" "url" = download best audio and best video and merge them together
+youtube-dl -f bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4 http://youtube.link.here = download best video with extension mp4 and best audio with extension m4a and then merge them together
