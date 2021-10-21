@@ -1,0 +1,21 @@
+r= read
+w= write
+x= execute
+
+1 execute
+2 write
+4 read
+
+
+
+*Add these number to give permissions. There is defined order to give permissions in Linux, here it is:
+
+
+ADMIN:  rwx  4+2+1= 7
+GROUP:  rx   4+2=6
+PUBLIC: r    4=4
+
+1+2+4= 7
+
+Example of permission where giving permissions for a file named test.txt:
+(chmod 764 test.txt, this gives: {execute, write and read permission for admin} {read and write for group} and {read for public})

@@ -1,0 +1,23 @@
+							Background commands
+use backgroud-image for patterns to be used as background
+use background to use an image as background
+use (no-repeat center center fixed;) to make the background responsive and fill the whole page. Also set the background size to cover
+
+							Text commands
+use (text-align: center;) to align text to center
+use width:sizepx; to shrink the boxmodel of selected element (say h1)
+use padding:sizepx; to manage padding for boxmodel of element (can also give specific padding like left, right etc)
+
+
+IMPORTANT:- to align text where ever you want and have it responsive use this trick:
+give width to the element so that this trick will work, after giving the width to the element just add margin of (0 auto;)
+Use margin-top to give margin from top so that you can move text to middle area or wherever you want.
+Explanation-  by adding 0 auto you command the page to give 0 margin from top and bottom and automatically decide the margin from left and right
+
+Also decrease the opacity of image so it's not much on eyes of viewer.
+
+To import font just paste the font import code provided by font creator to head part in html and use the font name (for ex font-family: 'Noto Sans', sans-serif;) to the part where you want the font to be used (for ex in h1)
+
+Use font-size to set size for fonts. Try using em unit for font-size because it is relative unit.
+
+To use font awesome just add it's cdn to your html head so you don't have to download on your website which will help in speed of website

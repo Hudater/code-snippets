@@ -1,0 +1,1 @@
+Just code snippets from different language to remind any code

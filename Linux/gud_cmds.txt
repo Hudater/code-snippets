@@ -1,0 +1,2 @@
+"mkdir -p P-{01..16}/M-{01..35}"
+it makes dirs from P-01 to P-16 with each one having sub dirs M-01 to M-35

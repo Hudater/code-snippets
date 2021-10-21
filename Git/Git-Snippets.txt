@@ -1,0 +1,38 @@
+							Local repo commands
+git init        (To initialize git repo)
+git add <file>  (Add files to index)
+git status      (Check status of working tree)
+git commit      (commit changes in index {NOTE- LOCAL REPO COMMIT})
+
+
+							Remote Repo Commands
+git push                         (Push to remote repo aka github, bitbucket etc)
+git pull                         (pulls latest from remote repo)
+git clone                        (Clone repo into a new repo)
+git remote add origin https://github.com/USERNAME/REPO.git   (to add remote repo for git)
+git push -u origin master   (to push on remote repo)
+
+
+							Extra commands
+touch for making new file        (ex- touch index.html)
+git rm --cached {file name}      (to remove file from local repo)
+git rm file name                 (to delete file from both repo)
+git add *.html                   (to add all files with that extension {.html here for example})
+git add .                        (to add all the files to repo)
+git commit                       (to commit repo)
+git commit -m 'Note for commit'  (to commit without getting into editor like vim etc)
+touch .gitignore                 (to add files here which you want to not add to the repo, TYPE THE NAME OF FILE IN THIS IGNORE FILE TO IGNORE IT      use /directory name to add directory to it)
+git branch branchname            (to add branch used mostly in big projects and when working with a team)
+git checkout branchname          (to switch to that branch)
+git merge branchname             (to merge branches)
+git clone link of repo           (to clone repo from git)
+
+git config --global user.name 'NAME' (To add your name to git)
+git config --global user.email 'EMAIL@email.com' (To add your email to git)
+git config --list (to check git config like username, email etc)
+
+SSH
+
+ssh-keygen (to generate ssh keys)
+git remote set-url origin git@github.com:USERNAME/repo.git (to add ssh push url)
+git remote add origin git@github.com:USERNAME/repo.git (to add push url to existing repo)

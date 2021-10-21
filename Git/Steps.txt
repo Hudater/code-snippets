@@ -1,0 +1,13 @@
+install git
+make a folder aka local repo
+config your name and email using git config command
+git init to initialize the local repo
+touch to create new files
+git add file name to add file to local repo
+git status to check status
+git commit to commit all files
+git remote link to add remote repo
+git push -u remote repo location to push to remote repo     (login to github etc to authenticate)
+git pull to update repo
+git clone link to clone remote repo
+git rm file name to delete file from both repo
